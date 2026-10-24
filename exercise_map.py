@@ -18,3 +18,26 @@ EXERCISE_MAP = {
     "Seated Cable Row Normal Grip": "F1D60854",  # Seated Cable Row - Bar Grip
     "Seated Cable Row V Bar": "0393F233",  # Seated Cable Row - V Grip (Cable)
 }
+
+# Lifted logs the weight of one dumbbell; Hevy gets the total of both.
+TWO_DUMBBELL_EXERCISES = {
+    "DB Bulgarian Split Squat",
+    "DB Chest Press Flat",
+    "DB Chest Press Incline",
+    "DB Lateral Raises",
+    "DB Lunge Alter. On The Spot",
+    "DB Lunge Pulse",
+    "DB Reverse Lunge On The Spot",
+    "DB Reverse Lunge Pulse",
+    "DB Standing Palms In Shoulder Press",
+    "DB Standing Shoulder Press",
+}
+
+# Lifted logs the reps of one leg; Hevy gets the total of both.
+PER_LEG_EXERCISES = {
+    "DB Bulgarian Split Squat",
+    "DB Lunge Alter. On The Spot",
+    "DB Lunge Pulse",
+    "DB Reverse Lunge On The Spot",
+    "DB Reverse Lunge Pulse",
+}

@@ -6,7 +6,7 @@ import urllib.request
 from datetime import UTC, datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from exercise_map import EXERCISE_MAP
+from exercise_map import EXERCISE_MAP, PER_LEG_EXERCISES, TWO_DUMBBELL_EXERCISES
 
 HEVY_API = "https://api.hevyapp.com/v1"
 LOCAL_TZ = ZoneInfo("Europe/Berlin")
@@ -67,7 +67,9 @@ def to_hevy_workout(lifted, start, is_private):
             log["exercise_number"],
             {"exercise_template_id": EXERCISE_MAP[log["exercise_name"]], "sets": []},
         )
-        exercise["sets"].append({"type": "normal", "weight_kg": log["weight"], "reps": log["reps"]})
+        weight = log["weight"] * 2 if log["exercise_name"] in TWO_DUMBBELL_EXERCISES else log["weight"]
+        reps = log["reps"] * 2 if log["exercise_name"] in PER_LEG_EXERCISES else log["reps"]
+        exercise["sets"].append({"type": "normal", "weight_kg": weight, "reps": reps})
 
     return {
         "title": f"Lifted {lifted['location_name']}: {lifted['timer_name']} (Coach {lifted['coach_first_name']})",
