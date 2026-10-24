@@ -1,0 +1,8 @@
+# Your own Lifted export (personal workout data)
+exercise_logs.json
+
+# Hevy API key
+.env
+
+.venv/
+__pycache__/
