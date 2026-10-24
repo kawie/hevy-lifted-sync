@@ -1,0 +1,82 @@
+[
+  {
+    "workout_id": "00000000-0000-0000-0000-000000000001",
+    "start_datetime": "2025-06-03T15:15:00.000Z",
+    "coach_first_name": "Alex",
+    "coach_last_name": "Example",
+    "timer_name": "Full Body Strength",
+    "location_name": "Example Studio",
+    "has_attended": true,
+    "spot_group": 1,
+    "has_groups": false,
+    "max_set_number": 3,
+    "exercise_logs": [
+      {
+        "exercise_id": "00000000-0000-0000-0000-00000000000a",
+        "exercise_name": "BB Romanian Deadlift",
+        "exercise_short_name": "Rom. Deadlift",
+        "exercise_number": 1,
+        "set_number": 1,
+        "set_type": "main",
+        "reps": 8,
+        "weight": 40,
+        "spot_group": 1
+      },
+      {
+        "exercise_id": "00000000-0000-0000-0000-00000000000a",
+        "exercise_name": "BB Romanian Deadlift",
+        "exercise_short_name": "Rom. Deadlift",
+        "exercise_number": 1,
+        "set_number": 2,
+        "set_type": "main",
+        "reps": 8,
+        "weight": 40,
+        "spot_group": 1
+      },
+      {
+        "exercise_id": "00000000-0000-0000-0000-00000000000a",
+        "exercise_name": "BB Romanian Deadlift",
+        "exercise_short_name": "Rom. Deadlift",
+        "exercise_number": 1,
+        "set_number": 3,
+        "set_type": "main",
+        "reps": 8,
+        "weight": 40,
+        "spot_group": 1
+      },
+      {
+        "exercise_id": "00000000-0000-0000-0000-00000000000b",
+        "exercise_name": "Leg Press Normal Stance",
+        "exercise_short_name": "Leg Press",
+        "exercise_number": 2,
+        "set_number": 1,
+        "set_type": "main",
+        "reps": 8,
+        "weight": 60,
+        "spot_group": 1
+      },
+      {
+        "exercise_id": "00000000-0000-0000-0000-00000000000b",
+        "exercise_name": "Leg Press Normal Stance",
+        "exercise_short_name": "Leg Press",
+        "exercise_number": 2,
+        "set_number": 2,
+        "set_type": "main",
+        "reps": 8,
+        "weight": 60,
+        "spot_group": 1
+      },
+      {
+        "exercise_id": "00000000-0000-0000-0000-00000000000b",
+        "exercise_name": "Leg Press Normal Stance",
+        "exercise_short_name": "Leg Press",
+        "exercise_number": 2,
+        "set_number": 3,
+        "set_type": "main",
+        "reps": 8,
+        "weight": 60,
+        "spot_group": 1
+      }
+    ]
+  }
+]
