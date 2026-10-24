@@ -70,7 +70,7 @@ def to_hevy_workout(lifted, start, is_private):
         exercise["sets"].append({"type": "normal", "weight_kg": log["weight"], "reps": log["reps"]})
 
     return {
-        "title": f"Lifted: {lifted['timer_name']} (with {lifted['coach_first_name']})",
+        "title": f"Lifted {lifted['location_name']}: {lifted['timer_name']} (Coach {lifted['coach_first_name']})",
         "start_time": format_time(start),
         "end_time": format_time(start + CLASS_DURATION),
         "is_private": is_private,

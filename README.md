@@ -5,7 +5,7 @@ Python script that automatically syncs workouts from [Lifted Studios](https://li
 - A Lifted workout is skipped if Hevy already has a workout on the same day. Existing Hevy workouts are never changed. This also makes it idempotent to run the sync again.
 - A Lifted workout is skipped if one of its exercises has no Hevy exercise in `exercise_map.py`. (See below on how to add an exercise to the mapping file.)
 - Each workout gets the Lifted start time and lasts 45 minutes.
-- The title is `Lifted: <class name> (with <coach first name>)`.
+- The title is `Lifted <location>: <class name> (Coach <coach first name>)`.
 - All sets are logged as normal sets with weight (kg) and reps.
 
 ## Requirements
